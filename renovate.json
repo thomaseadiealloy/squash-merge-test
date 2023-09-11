@@ -1,0 +1,13 @@
+{
+    "prConcurrentLimit": 0,
+    "prHourlyLimit": 0,
+    "enabledManagers": ["terraform"],
+    "packageRules": [
+        {
+            "matchManagers": [
+                "terraform"
+            ],
+            "groupName": "Terraform"
+        }
+    ]
+}
